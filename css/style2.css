@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import 'bootstrap.min.css';
 @import 'framework.css';
 /* 
 	Table of contents:
@@ -38,7 +37,7 @@ body.dev .js-content-editable {
   outline-offset: -2px;
 }
 body.dev .js-content-editable:hover {
-  outline-color: #6026be !important;
+  outline-color: #f89c35 !important;
   outline-style: solid !important;
 }
 body.dev section.js-content-editable, body.dev header.js-content-editable, body.dev nav.js-content-editable, body.dev footer.js-content-editable {
@@ -106,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
   margin: 0;
-  font-weight: 600;
+  font-weight: 700;
   font-family: Poppins;
 }
 
@@ -924,7 +923,7 @@ b, strong {
   bottom: -30px;
 }
 .navigation_23 .navigation_popup .slider .slick-dots li.slick-active button {
-  background: #6026be;
+  background: #f89c35;
 }
 .navigation_23 .navigation_popup .slider .slick-dots li button {
   opacity: 1;
@@ -1238,10 +1237,8 @@ b, strong {
   background: rgba(235, 234, 237, 0.4);
 }
 .content_30 .block img {
-  /* max-width: 70%; */
-  /* max-height: 70%; */
-  max-width: 70px;
-  max-height: 70px;
+  max-width: 70%;
+  max-height: 70%;
 }
 
 .content_31 .block {
@@ -2311,7 +2308,7 @@ b, strong {
   transition: all 0.2s;
 }
 .form_13 .js-form-block.active {
-  border-color: #6026be;
+  border-color: #f89c35;
 }
 .form_13 .icons {
   top: 25px;
@@ -2860,12 +2857,12 @@ b, strong {
   position: absolute;
   left: -25px;
   top: 0px;
-  color: #6026be;
+  color: #f89c35;
   font-size: 12px;
 }
 
 .pricing_table_6 .custom-toggle:hover, .pricing_table_6 .custom-toggle:focus {
-  background: #4b1e94;
+  background: #f28408;
 }
 .pricing_table_6 .custom-toggle div {
   left: 3px;
@@ -3530,7 +3527,7 @@ b, strong {
 .ecommerce_11 .inner {
   top: 0;
   left: 0;
-  background: rgba(72, 43, 231, 0.7);
+  background: rgba(66, 133, 244, 0.7);
   transition: all 0.25s;
 }
 .ecommerce_11 .inner .btn {
@@ -3728,7 +3725,7 @@ b, strong {
 .ecommerce_17 .inner {
   top: 0;
   left: 0;
-  background: rgba(72, 43, 231, 0.7);
+  background: rgba(66, 133, 244, 0.7);
   transition: all 0.25s;
 }
 
@@ -3869,7 +3866,7 @@ b, strong {
   transition: all 0.25s;
 }
 .ecommerce_21 .category:hover {
-  border-color: #482BE7;
+  border-color: #4285f4;
 }
 .ecommerce_21 .img_link img {
   transition: all 0.25s;
@@ -3990,7 +3987,7 @@ b, strong {
 .ecommerce_26 .inner {
   top: 0;
   left: 0;
-  background: rgba(72, 43, 231, 0.7);
+  background: rgba(66, 133, 244, 0.7);
   transition: all 0.25s;
   overflow: auto;
 }
@@ -4810,7 +4807,7 @@ b, strong {
 }
 .application_11 ul li .fas {
   font-size: 10px;
-  color: #6026be;
+  color: #f89c35;
   padding-right: 15px;
 }
 
@@ -4902,10 +4899,10 @@ b, strong {
 }
 
 .application_23 .color-dependent:nth-of-type(even) .radius_full {
-  background: #482BE7;
+  background: #4285f4;
 }
 .application_23 .color-dependent:nth-of-type(odd) .radius_full {
-  background: #6026be;
+  background: #f89c35;
 }
 .application_23 i {
   color: #000000;
